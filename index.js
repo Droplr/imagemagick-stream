@@ -1,9 +1,9 @@
 "use strict";
-require('babel-polyfill');
 const spawn = require('child_process').spawn;
 const isError = require('util').isError;
 const Duplexify = require('duplexify');
 const fs = require('fs');
+const Symbol = require('es6-symbol');
 
 const operators = Symbol();
 const settings = Symbol();
