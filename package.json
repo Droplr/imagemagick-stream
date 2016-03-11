@@ -13,6 +13,7 @@
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "dependencies": {
+    "babel-polyfill": "^6.7.2",
     "duplexify": "3.4.2"
   },
   "devDependencies": {

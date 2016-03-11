@@ -1,5 +1,5 @@
 "use strict";
-
+require('babel-polyfill');
 const spawn = require('child_process').spawn;
 const isError = require('util').isError;
 const Duplexify = require('duplexify');
